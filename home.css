@@ -1,0 +1,36 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Main Section */
+main {
+    margin-top: 50px;
+}
+
+/* Button Styling */
+button {
+    background-color: #8b0000; /* Dark red */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000; /* Brighter red on hover */
+}
