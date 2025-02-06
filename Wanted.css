@@ -1,0 +1,92 @@
+/* Body styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4e1c1; /* Light parchment-like background */
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #8b0000; /* Dark red for a bold look */
+    color: white;
+    padding: 20px 0;
+}
+
+.wanted-title {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Navigation styles */
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8b0000; /* Dark red for consistency */
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff9900; /* Highlight effect */
+}
+
+/* Wanted poster section */
+#wanted-poster {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff8dc; /* Light cream background for the poster */
+    border: 3px solid #8b4513; /* Brown border */
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+.wanted-image {
+    width: 100%; /* Ensure the image fits the container */
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 15px 0;
+}
+
+.reward {
+    font-size: 1.2em;
+    color: #d2691e; /* Saddle brown for the reward text */
+}
+
+.reward span {
+    font-weight: bold;
+}
+
+.warning {
+    color: red;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Button styles */
+#alert-button {
+    background-color: #ffcc00; /* Golden yellow button */
+    border: 2px solid #8b4513;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#alert-button:hover {
+    background-color: #ff9900; /* Darker gold when hovered */
+}
